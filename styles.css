@@ -1,0 +1,62 @@
+body{
+    text-align: center;
+    background-color: #2E2E2E;
+    margin: 0;
+    font-family: "Playfair Display", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#header{
+    background-image: url("./images/Bryce-Canyon.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#header-text{
+    font-size: 50px;
+    margin: 0;
+    padding-top: 150px;
+    color: #ffffff;
+    text-shadow: 0 0 4px black;
+    font-family: "Rye", serif;
+    font-weight: 400;
+}
+#navbar{
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #C1440E;
+    background-color: #0A3D5A;
+}
+.nav-btn{
+    color: #C1440E;
+    background-color: #0A3D5A;
+    font-size: 20px;
+    
+}
+.nav-btn:hover{
+    background-color: #E35D17;
+    color: #0A3D5A;
+}
+.fact{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    margin: 5px auto;
+    max-width: 80%;
+    border: solid 2px #E3A957;
+    border-radius: 4px;
+}
+.fact p{
+    display: inline-block;
+
+}
+.bullet{
+    text-align: left;
+    list-style-position: inside;
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+}
