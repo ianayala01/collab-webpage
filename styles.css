@@ -23,7 +23,6 @@ body{
     font-size: 50px;
     margin: 0;
     padding-top: 150px;
-    
 }
 #header-subtext{
     font-size: 30px;
@@ -44,7 +43,6 @@ body{
     z-index: 1000;
     padding-top: 7px;
     padding-bottom: 7px;
-    color: #C1440E;
     background-image: linear-gradient(to right,#144f72, #0A3D5A,#144f72);
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
     margin-bottom: 20px;
@@ -95,7 +93,7 @@ body{
     border-bottom: solid 4px;
     border-image-slice: 1;
     border-image-source: linear-gradient(to right,#3C3C3C, #E3A957, #3C3C3C);
-    border-radius: 4px;
+    border-radius: 10px;
     font-family: "cinzel decorative", serif;
 }
 .fact p{
