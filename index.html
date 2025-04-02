@@ -6,22 +6,30 @@
     <link rel = "stylesheet" href = "styles.css"/>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Rye&display=swap" rel="stylesheet">
-</head>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&family=Cinzel:wght@400..900&family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet"></head>
 
 <body>
     <div id="header">
-        <h1 id="header-text">Desertification: The Drying of the Planet</h1>
+        <h1 id="header-text">Desertification:</h1>
+        <h2 id="header-subtext">The Drying Planet</h2>
     </div>
 
     <div id="navbar">
+        <img src="./images/logo-nb.png" id = "logo"/>
         <button class="nav-btn">Home</button>
+        <button class="nav-btn">About Us</button>
+        <button class="nav-btn">Newsletters</button>
+        <button class="nav-btn"></button>
+        <form>
+            <input type="text" placeholder="Search..." name="q" class="nav-search">
+            <button type="submit" class="nav-btn">🔍</button>
+        </form>
     </div>
     
     <div class = "fact">
         <img class = "fact-img" src="./images/Desertification-butterfly.jpg" alt = "Lone patch of green in a dry landscape"/>
         <h2><span class = "fact-head">Extent of Drying Lands</span></h2>
-        <p>Over the past 30 years, approximately 77.6% of Earth's land areas have become drier due to human-induced climate change. This trend has led to the expansion of drylands by about 4.3 million square kilometers globally.</p>
+        <p>According to <a class ="fact-link" href ="https://time.com/7201214/three-quarters-of-the-earth-has-gotten-permanently-drier/?utm_source=chatgpt.com" target ="_blank">Time</a>, a United Nations report warns that climate change caused by humans has brought permanent global dryness, where 77.6% of the land on our planet has experienced long-term aridity between 1990 and 2020. Throughout this period, drylands expanded by 4.3 million square kilometers—an area larger than India—leading to economic loss, forced displacement, escalating wildfires, and degradation of the environment. Unlike reversible temporary droughts, this alteration is permanent, and this causes urgent questions about the future of food security and human displacement.</p>
     </div>
 
     <div class = "fact">
@@ -41,7 +49,7 @@
         <img class = "fact-img"  src = "./images/health.png" alt = "Chart depicting the correlation of the environment and health"/>
         <h2><span class = "fact-head">Health Consequences</span></h2>
         <p>Aridification leads to health issues such as increased childhood stunting and reduced water supplies, particularly in vulnerable regions.</p>
-        <ul>
+        <ul class = "bullet">
             <li>higher threats of malnutrition from reduced food and water supplies</li>
             <li>more water- and food-borne diseases that result from poor hygiene and a lack of clean water</li>
             <li>respiratory diseases caused by atmospheric dust from wind erosion and other air pollutants</li>
