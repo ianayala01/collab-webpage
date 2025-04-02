@@ -45,13 +45,18 @@ body{
     padding-top: 7px;
     padding-bottom: 7px;
     color: #C1440E;
-    background-color: #0A3D5A;
+    background-image: linear-gradient(to right,#144f72, #0A3D5A,#144f72);
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
     margin-bottom: 20px;
+
+    border-top: solid 2px;
+    border-bottom: solid 1px;
+    border-image-slice: 1;
+    border-image-source: linear-gradient(to right,#3C3C3C, #E3A957, #3C3C3C);
 }
 .nav-btn{
-    color: #C1440E;
-    background-color: #0A3D5A;
+    color: #E3A957;
+    background: transparent;
     font-size: 20px;
     border: 0;
     border-radius: 4px;
@@ -69,7 +74,7 @@ body{
     outline: 2px solid #E3A957;
 }
 .nav-btn:hover{
-    background-color: #E35D17;
+    background-color: #E3A957;
     color: #0A3D5A;
     cursor: pointer;
 }
