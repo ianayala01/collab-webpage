@@ -1,4 +1,4 @@
-body{
+body {
     text-align: center;
     background-color: #2E2E2E;
     margin: 0;
@@ -7,7 +7,7 @@ body{
     font-style: normal;
 }
 
-#header{
+#header {
     background-image: url("./images/desertification-header.jpg");
     background-size: cover;
     background-repeat: no-repeat;
@@ -17,23 +17,26 @@ body{
     font-family: "lora", serif;
     font-weight: 500;
     padding-bottom: 15px;
-
 }
-#header-text{
+
+#header-text {
     font-size: 50px;
     margin: 0;
     padding-top: 150px;
 }
-#header-subtext{
+
+#header-subtext {
     font-size: 30px;
     margin: 0;
 }
-#logo{
+
+#logo {
     height: 50px;
     margin: 0;
 
 }
-#navbar{
+
+#navbar {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -43,40 +46,46 @@ body{
     z-index: 1000;
     padding-top: 7px;
     padding-bottom: 7px;
-    background-image: linear-gradient(to right,#144f72, #0A3D5A,#144f72);
+    background-image: linear-gradient(to right, #144f72, #0A3D5A, #144f72);
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
     margin-bottom: 20px;
 
     border-top: solid 2px;
     border-bottom: solid 1px;
     border-image-slice: 1;
-    border-image-source: linear-gradient(to right,#3C3C3C, #E3A957, #3C3C3C);
+    border-image-source: linear-gradient(to right, #3C3C3C, #E3A957, #3C3C3C);
 }
-.nav-btn{
+
+.nav-btn {
     color: #E3A957;
     background: transparent;
     font-size: 20px;
     border: 0;
     border-radius: 4px;
 }
-.nav-search{
+
+.nav-search {
     background-color: #3C3C3C;
     color: #E3A957;
     border: 1px solid #967C52;
     font-size: 20px;
     padding: 2px;
     border: 0;
-    border-radius: 4px;;
+    border-radius: 4px;
+    ;
 }
-.nav-search:hover{
+
+.nav-search:hover {
     outline: 2px solid #E3A957;
 }
-.nav-btn:hover{
+
+.nav-btn:hover {
     background-color: #E3A957;
     color: #0A3D5A;
     cursor: pointer;
 }
-.fact{
+
+.fact {
     padding: 20px;
     display: flex;
     flex-direction: column;
@@ -89,32 +98,74 @@ body{
     background-color: #3C3C3C;
     text-shadow: 0 0 20px black;
 }
-.fact-head{
+
+.fact-head {
     border-bottom: solid 4px;
     border-image-slice: 1;
-    border-image-source: linear-gradient(to right,#3C3C3C, #E3A957, #3C3C3C);
+    border-image-source: linear-gradient(to right, #3C3C3C, #E3A957, #3C3C3C);
     border-radius: 10px;
     font-family: "cinzel decorative", serif;
 }
-.fact p{
+
+.fact p {
     display: inline-block;
 }
-.fact-img{
+
+.fact-img {
     border-radius: 4px;
     box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.5);
 }
-.fact-link{
+
+.fact-link {
     color: #B2761E;
 }
-.fact-link:hover{
+
+.fact-link:hover {
     color: #FFA73B;
 }
-.fact-link:visited{
+
+.fact-link:visited {
     color: #8F5E18;
 }
-.bullet{
+
+.bullet {
     text-align: left;
     list-style-position: outside;
     width: fit-content;
-    
 }
+
+
+
+
+/* Student B Section */
+
+/* footer */
+.footer {
+    background-image: linear-gradient(to right, #144f72, #0A3D5A, #144f72);
+    color: #E3A957;
+    text-align: center;
+    padding: 20px;
+    padding-top: 7px;
+}
+
+.social-medias {
+    margin-top: 10px;
+}
+
+/* icons base color/size/margin */
+.twi-icon,
+.insta-icon,
+.yt-icon,
+.tt-icon,
+.fb-icon {
+    color: #E3A957;
+    font-size: 25px;
+    margin: 15px;
+}
+
+/* icons change color on hover */
+.twi-icon:hover {color: black}
+.insta-icon:hover {color: #ee2a7b}
+.yt-icon:hover {color: #FF0000}
+.tt-icon:hover {color: #25F4EE}
+.fb-icon:hover {color: 	#1877F2}
